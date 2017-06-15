@@ -1,0 +1,169 @@
+/***** BASE STYLES *****/
+
+
+body.homepage {
+  font-family: 'Lora', serif;
+  background: #F5F4F2 url('../img/poppies.png') no-repeat 1px 86px;
+  background-attachment: fixed;
+  overflow: scroll;
+}
+
+body.portfolio {
+  font-family: 'Lora', serif;
+  background: url('../img/portfoliopage.jpg') no-repeat fixed;
+  background-size: 100%;
+}
+
+
+/***** GRID *****/
+
+
+.full-width {
+  width: 1200px;
+  margin: 0;
+}
+
+
+/***** HEADER *****/
+
+header {
+  height: 500px;
+}
+
+header h1 {
+  font-size: 72px;
+  font-variant: small-caps;
+  font-weight: lighter;
+  color: #F45F40;
+  text-align: center;
+  padding: 0px;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -325px;
+}
+
+#logo {
+  height: 85px;
+  width: 85px;
+  margin: -15px;
+  padding: -10px;
+}
+
+nav {
+  font-family: 'Josefin Sans', sans-serif;
+  position: fixed;
+  top:175px;
+  left: 120px;
+  width: 400px;
+}
+
+nav ul li {
+  display: block;
+  line-height: 100px;
+}
+
+nav ul li a{
+  /***border: 1px solid #F45F40;
+  margin: 25px;
+  padding: 37px, 15px;
+  border-image: url('../img/border.png');***/
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 18px;
+  color: #F9AE8D;
+}
+
+section ul {
+  list-style: none;
+}
+
+#socialmedia-links {
+  float: right;
+  display: block;
+  line-height: 20px;
+  position: fixed;
+  top: 180px;
+  right: -150px;
+  width: 400px;
+}
+
+header h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 200;
+  color: #80B9CE;
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  margin-left: -275px;
+  text-align: center;
+}
+
+
+/***** MAIN *****/
+
+#example-1 {
+  /***border: 30px solid #D2C48E;***/
+  position: relative;
+  top: -100px;
+  left: 500px;
+  width: 100%;
+}
+
+#example-1 h3 {
+  position: absolute;
+  top: 190px;
+  left: 0px;
+  width: 100%;
+}
+
+#example-1 h3 span {
+  color: white;
+  font-family: 'Lora', serif;
+  background: rgba(210, 196, 142, 0.8);
+  padding: 10px;
+}
+
+#example-2 {
+  position: relative;
+  left: 500px;
+  width: 100%;
+}
+
+#example-2 h3 {
+  position: absolute;
+  top: 190px;
+  left: 0px;
+  width: 100%;
+}
+
+#example-2 h3 span {
+  color: white;
+  font-family: 'Lora', serif;
+  background: rgba(210, 196, 142, 0.8);
+  padding: 10px;
+}
+
+#example-3 {
+  position: relative;
+  left: 500px;
+  top: 100px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#example-3 h3 {
+  position: absolute;
+  top: 190px;
+  left: 0px;
+  width: 100%;
+}
+
+#example-3 h3 span {
+  color: white;
+  font-family: 'Lora', serif;
+  background: rgba(210, 196, 142, 0.8);
+  padding: 10px;
+}
